@@ -1,45 +1,45 @@
-# DB-Repo
+## DB-Repo
  
-#Lecture 1
+## Lecture 1
 
-#DBMS
-		--> lets start what is D.
+# DBMS
+		--> Let's start with what D is.
 
-#D 
-	D means data --> collection of raw bytes is called data. not understandable/ not meaningfull.
+# D 
+	D means data --> collection of raw bytes is called data. not understandable/ not meaningful.
 										||
 										||
-					When raw data is processed it become "information".
-					information provides context for decsion making.
+					When raw data is processed it becomes "information".
+					information provides context for decision-making.
 
-#Types of data	
+## Types of data	
 	          #i) Quantitative
-					The data which is in nomerical form is called Quantitative like age, weight, height etc.
+					The data which is in numerical form is called Quantitative like age, weight, height etc.
 			  
 			  #ii) Qualitative
-					The data which is in descriptive form is called Qualitative data like name,gender,hair color etc.
+					The data in descriptive form is called Qualitative data like name, gender, hair color etc.
 
 
-#Data Vs information	
-			i) Data is collection of facts  while information put those facts into context.
+## Data Vs information	
+			i) Data is collecting facts while information puts those facts into context.
 			ii) Data is unorganized form while information is organized
-			iii) Data is itself meaningless when analyaze it and interpret then it become information
-			iv) Data does not depend on inforamtion while information depend on data.
-			v) Data doesn't sufficent for decsion while information is.
+			iii) Data is itself meaningless when analysed and interpreted then it becomes information
+			iv) Data does not depend on information while information depends on data.
+			v) Data isn't sufficient for decision while information is.
 
-#Database
-	--> Database is an electronic space where we can store data, managed, access and updtad
-	--> to store, managed, access and updtad data we need Database management system(DBMS).
+## Database
+	--> Database is an electronic space where we can store data, manage, access and update
+	--> To store, manage, access and update data we need a Database management system(DBMS).
 
-#DBMS	
-	--> DBMS is set of softwares which we need for access, add, update and delete data.
-	--> The primary goal of DBMS is to retrive and stroe information in efficent way.
+## DBMS	
+	--> DBMS is a set of software which we need to access, add, update and delete data.
+	--> The primary goal of DBMS is to retrieve and store information in an efficient way.
 	
 ###################################################################################################################################################
 
-#DBMS VS File system
+## DBMS VS File system
 	--> File processing disadvantages
-	##1) Data redundancy and inconsistency
+	# 1) Data redundancy and inconsistency
 			Data redundancy and inconsistency are common issues in database management. Let's illustrate these concepts with an example:
 
 			**Scenario**: Consider a simple database for a library. This database contains information about books, borrowers, and library branches.
@@ -74,7 +74,7 @@
 
 			   Here, "John Smith" and "John J. Smith" are inconsistent author names for the same person.
 
-	##2) Difficulty in accessing data
+	# 2) Difficulty in accessing data
 	
 			Let's consider an example that illustrates some of the difficulties in accessing data in file systems:
 
@@ -97,7 +97,7 @@
 			7. **Scalability**
 			8. **Version Control**
 
-		##3) Data Isolation
+		# 3) Data Isolation
 				**Scenario** Imagine a shared network drive in a small office environment where multiple users have access to the same set of files and directories.
 
 			1. **Concurrent File Access:**
@@ -109,7 +109,7 @@
 				Both users save their changes independently.
 				
 		
-		##4) Integrity problem
+		# 4) Integrity problem
 				Integrity problems in file systems refer to situations where the data stored in files becomes corrupted, inconsistent, or inaccurate due to various reasons. 
 
 		1. **Data Corruption**:
@@ -142,22 +142,22 @@
 
 		   - **Example**: Malicious software can infect files, leading to changes or destruction of data. For instance, a virus may encrypt files and demand a ransom for 
 		                  decryption.
-		   - **Solution**: Regularly updated antivirus and anti-malware software can help detect and remove threats. Additionally, practicing safe computing habits and avoiding 
-							suspicious downloads can reduce the risk of malware infection.
+		   - **Solution**: Regularly updated antivirus and anti-malware software can help detect and remove threats. Additionally, practising safe computing habits and avoiding 
+							Suspicious downloads can reduce the risk of malware infection.
 
 		6. **Human Errors**
 		7. **Lack of Data Validation**
 		8.**Concurrency Issues **:
 
-   ##5) Atomicity problem
+   # 5) Atomicity problem
 			Refers to the property of ensuring that a series of operations either all succeed together or fail together as a single, indivisible unit (a transaction).
 			Traditional file systems do not provide the same level of support for atomicity as database systems
 			
-   ##6) Concurrent-access anomilies
+   # 6) Concurrent-access anomalies
 			Consider a shared network folder where multiple users have access to a file. In this scenario, two users attempt to simultaneously modify and save changes to the 
-		    same file, leading to concurrent-access anomalies.
+		    same file, leading to concurrent access anomalies.
 			
-   ##7) Security Problems
+   # 7) Security Problems
 			Security problems in file systems refer to vulnerabilities and issues that can compromise the confidentiality, integrity, and availability of data stored within 
 			the file system. These problems can result from various factors, including improper access controls, vulnerabilities, and human errors
 		
